@@ -11,20 +11,20 @@
     ],
   },
   "files": [
-    { "kind": "folder", "path": "UnitConverter", "target-membership": [ "Untitled Project" ] },
+    { "kind": "folder", "path": "UnitConverter", "target-membership": [ "UnitConverter" ] },
     {
       "kind": "group",
       "name": "Products",
       "children": [
-        { "path": "<PRODUCTS>/Untitled Project.app", "id": "000000000000000000000120", "type": "wrapper.application", "index": false },
+        { "path": "<PRODUCTS>/UnitConverter.app", "id": "000000000000000000000120", "type": "wrapper.application", "index": false },
       ],
     },
   ],
   "targets": [
     {
-      "name": "Untitled Project",
+      "name": "UnitConverter",
       "id": "000000000000000100000000",
-      "product": "Products/Untitled Project.app",
+      "product": "Products/UnitConverter.app",
       "product-type": "application",
       "build-phases": [
         "compile-sources",
